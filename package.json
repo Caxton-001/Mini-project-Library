@@ -1,22 +1,18 @@
 {
-    "name": "text-to-mp3",
-    "version": "1.0.3",
-    "author": "Caxton",
-    "license": "MIT",
-    "main": "index.js",
-    "scripts": {
-      "test": "node textToMp3.js -t \"Hi there\" -f text.mp3"
-    },
-    "keywords": [
-      "translate",
-      "mp3",
-      "speech",
-      "text",
-      "text-to-mp3",
-      "google"
-    ],
-    "dependencies": {
-      "request": "^2.81.0"
-    }
+  "name": "text-to-mp3",
+  "version": "1.0.0",
+  "author": "Caxton",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node textToMp3.js -t \"I am Caxton, the dev.\" -f text.mp3"
+  },
+  "keywords": [
+    "translate-text-to-speech",
+    "text-to-speech",
+    "text-to-mp3"
+  ],
+  "dependencies": {
+    "request": "^2.81.0"
   }
-  
+}
